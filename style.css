@@ -114,14 +114,49 @@ div.gallery {
 
 .like-img
 {
-	margin-left:30%;
+	margin:35%;
 	margin-top:0px;
 	margin-bottom:0px;
-	width: 460px;
-	length: 460px;
+	width: 400px;
+	length: 400px;
 }
 
-.like-box
+.fb-like
 {
-	margin-left: 40%;
+	margin-left: 43%;
+	size: 500;
 }
+
+.qr
+{
+	margin:auto;
+	display: block;
+}
+
+
+
+* {
+	box-sizing: border-box;
+  }
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+
+  .container {
+	border-radius: 5px;	
+	padding: 50px;
+  }
+
+/* Create two columns that float next to eachother */
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+	}
+
