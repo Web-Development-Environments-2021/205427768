@@ -133,23 +133,24 @@ div.gallery {
 }
 
 table, th, td {
-	border: 1px solid white;
-	border-collapse: collapse;
+	font: bold ;
+	border: 0.02px solid white;
+	border-collapse: separate;
 	text-align: right;
   }
 
-td,th {
+.td,th {
 	padding: 15px;
-	text-align: right;
+	text-align: center;
   }
 
 
 .odd-cell{
-	background-color:rgb(225, 236, 198)
+	background-color:rgb(225, 236, 198);
 }
 
 .even-cell{
-	background-color: rgb(154, 163, 163);
+	background-color: rgb(189, 207, 166);
 }
 
 .title-table{
